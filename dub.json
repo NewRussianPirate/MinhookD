@@ -1,0 +1,26 @@
+{
+	"name": "minhook-d",
+	"description": "A wrap for C MinHook library.",
+	"configurations": [
+		{
+			"name": "MinGWBuild_x64",
+			"targetType": "sourceLibrary",
+			"lflags": ["minhook_x64.a"]
+		},
+		{
+			"name":"MinGWBuild_x32",
+			"targetType": "sourceLibrary",
+			"lflags": ["minhook_x32.a"]
+		},
+		{
+			"name": "VCBuild_x64",
+			"targetType": "sourceLibrary",
+			"lflags": ["minhook.x64.lib"]
+		},
+		{
+			"name": "VCBuild_x32",
+			"targetType": "sourceLibrary",
+			"lflags": ["minhook_x32.lib"]
+		}
+	]
+}
