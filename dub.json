@@ -5,22 +5,22 @@
 		{
 			"name": "MinGWBuild_x64",
 			"targetType": "sourceLibrary",
-			"lflags": ["minhook_x64.a"]
+			"lflags": ["libs/windows-x86_64/minhook_x64.a"]
 		},
 		{
 			"name":"MinGWBuild_x32",
 			"targetType": "sourceLibrary",
-			"lflags": ["minhook_x32.a"]
+			"lflags": ["libs/windows-x86/minhook_x32.a"]
 		},
 		{
 			"name": "VCBuild_x64",
 			"targetType": "sourceLibrary",
-			"lflags": ["minhook.x64.lib"]
+			"lflags": ["libs/windows-x86_64/minhook.x64.lib"]
 		},
 		{
 			"name": "VCBuild_x32",
 			"targetType": "sourceLibrary",
-			"lflags": ["minhook.x32.lib"]
+			"lflags": ["libs/windows-x86/minhook.x32.lib"]
 		}
 	]
 }
